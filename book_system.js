@@ -46,3 +46,14 @@ function clearInputs() {
   document.getElementById('bookDescription').value = '';
   document.getElementById('pagesNumber').value = '';
 }
+
+
+console.log("Start");
+setTimeout(function(){
+
+  console.log("Delayed message");
+  
+
+}, 2000)
+
+console.log("End");
